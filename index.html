@@ -1,12 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>Baú do Gamer</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="home">
+      <div class="container">
+        <h1>Baú do Gamer</h1>
+
+        <!-- NavBar do site -->
+        <nav>
+          <!-- Logo -->
+          <a href="#">Logo</a>
+          <!-- Itens Navbar -->
+          <ul class="navbar">
+            <li class="navbar-item"><a href="#home">Home</a></li>
+            <li class="navbar-item"><a href="#jogos">Jogos</a></li>
+            <li class="navbar-item"><a href="#sobre">Sobre</a></li>
+            <li class="navbar-item"><a href="#suporte">Suporte</a></li>
+          </ul>
+        </nav>
+
+        <!-- Pesquisa -->
+        <input
+          type="search"
+          name="search"
+          id="pesquisa"
+          placeholder="Ex: Expedition 33"
+        />
+      </div>
+
+      <!-- Foto de Perfil Usuario -->
+      <a href="#">Foto de Perfil</a>
+    </header>
+
+    <!-- Corpo -->
+    <main>
+      <div class="banner-image"></div>
+    </main>
+
+    <!-- Cards -->
+    <section class="container jogos">
+      <div class="catalogo">
+        <img src="#" alt="Capa do Jogo" id="capa-jogo" />
+        <h2 id="titulo"></h2>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="container sobre">
+      <div class="about">
+        <h2>Sobre Nós</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
+          quaerat. Necessitatibus repellat ullam, at ut voluptatem debitis omnis
+          mollitia quam non? Tempora itaque earum exercitationem distinctio
+          perferendis et quas molestiae! Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Nihil aliquid laudantium corrupti ipsa nisi at rerum
+          possimus sunt ipsum dolores officia, expedita sint delectus culpa!
+          Cumque harum quis animi itaque? Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Explicabo quam maxime error deleniti
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="container suporte">
+      <div class="suporte">
+        <h2>Precisa de Ajuda?</h2>
+        <h3>Nos Contate</h3>
+
+        <form action="#">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Seu Email" />
+
+          <label for="#">Mensagem:</label>
+          <input
+            type="text"
+            name="text-email"
+            id="text-email"
+            placeholder="Nos conte seu problema"
+          />
+        </form>
+
+        <div>
+          <a href="https://github.com/y-Brian">Bryan</a>
+          <a href="https://github.com/Fepellipe">Fellipe</a>
+        </div>
+        <p>&copy; 2026 Baú do Gamer, todos os direitos reservados</p>
+      </div>
+    </footer>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
